@@ -55,7 +55,7 @@
 # Para todos os casos:
 ### Configuração do cabeçalho dos endpoints:
 
-### - X-CSRF-TOKEN = <Token>
+### - X-CSRF-TOKEN = |Token|
 ### - Content-Type = application/json
 
 ## Endpoints - exemplos - Register:

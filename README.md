@@ -151,6 +151,7 @@
 
 // Grupo de rotas para grupo economico
 Route::prefix('economic_group')->group(function () {
+    
     Route::get('show', [EconomicGroupController::class, 'show']);
 
     Route::post('register', [EconomicGroupController::class, 'register']);
@@ -162,6 +163,7 @@ Route::prefix('economic_group')->group(function () {
 
 // Grupo de rotas para bandeira
 Route::prefix('flag')->group(function () {
+    
     Route::get('show', [FlagController::class, 'show']);
 
     Route::post('register', [FlagController::class, 'register']);
@@ -173,6 +175,7 @@ Route::prefix('flag')->group(function () {
 
 // Grupo de rotas para unidade
 Route::prefix('unity')->group(function () {
+    
     Route::get('show', [UnityController::class, 'show']);
 
     Route::post('register', [UnityController::class, 'register']);
@@ -184,6 +187,7 @@ Route::prefix('unity')->group(function () {
 
 // Grupo de rotas para colaborador
 Route::prefix('collaborator')->group(function () {
+    
     Route::get('show', [CollaboratorController::class, 'show']);
 
     Route::post('register', [CollaboratorController::class, 'register']);
@@ -195,6 +199,7 @@ Route::prefix('collaborator')->group(function () {
 
 // Grupo de rotas para produto
 Route::prefix('product')->group(function () {
+    
     Route::get('show', [ProductController::class, 'show']);
 
     Route::post('register', [ProductController::class, 'register']);
@@ -206,6 +211,7 @@ Route::prefix('product')->group(function () {
 
 // Grupo de rotas para requisição
 Route::prefix('request')->group(function () {
+    
     Route::get('show', [RequestsController::class, 'show']);
 
     Route::post('register', [RequestsController::class, 'register']);

@@ -15,7 +15,7 @@
 ### Gostaria de agradecer a oportunidade de trabalhar nele, foi satifatório por colocar em prática o que estudei e me dediquei a aprender, embora com algumas ressalva obviamente, mas, sou extremamente grato pela oportunidade de pode realizar o teste.
 
 # Instalação:
-### No projeto basicamente usei as seguite dependecias:
+### No projeto usei as seguite dependências:
 ### - laravel 11
 ### - livewire
 ### - yajra/laravel-datatables
